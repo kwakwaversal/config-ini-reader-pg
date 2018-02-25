@@ -1,5 +1,5 @@
 {
-   "abstract" : "Blah blah blah",
+   "abstract" : "PostgreSQL connection service file parser",
    "author" : [
       "Paul Williams <kwakwa@cpan.org>"
    ],
@@ -37,17 +37,33 @@
       },
       "runtime" : {
          "requires" : {
+            "Config::INI::Reader" : "0",
             "perl" : "5.008005"
          }
       },
       "test" : {
          "requires" : {
+            "Data::Section" : "0",
             "Test::More" : "0.96"
          }
       }
    },
    "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/kwakwaversal/config-pg-servicefile/issues"
+      },
+      "homepage" : "https://github.com/kwakwaversal/config-pg-servicefile",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/kwakwaversal/config-pg-servicefile.git",
+         "web" : "https://github.com/kwakwaversal/config-pg-servicefile"
+      }
+   },
    "version" : "0.01",
+   "x_contributors" : [
+      "Paul Williams <kwakwaversal@gmail.com>"
+   ],
    "x_serialization_backend" : "Cpanel::JSON::XS version 4.01"
 }
 

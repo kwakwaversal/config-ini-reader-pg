@@ -1,0 +1,7 @@
+/Config-Pg-ServiceFile-*
+/.build
+/_build*
+/Build
+MYMETA.*
+!META.json
+/.prove

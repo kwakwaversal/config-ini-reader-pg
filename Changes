@@ -1,6 +1,7 @@
 Revision history for Config-Pg-ServiceFile
 
 {{$NEXT}}
+    - Fix POD
 
 0.01  2018-02-25 22:51:06 UTC
-        - Initial release
+    - Initial release

@@ -62,7 +62,7 @@ The accompanying module L<Pg::ServiceFile> provides a better interface to the
 data stored in a PostgreSQL connection file. See L<Pg::ServiceFile> for more
 information.
 
-=head2 METHODS
+=head1 METHODS
 
 L<Config::Pg::ServiceFile> inherits all methods from L<Config::INI::Reader>.
 

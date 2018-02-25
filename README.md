@@ -39,7 +39,7 @@ The accompanying module [Pg::ServiceFile](https://metacpan.org/pod/Pg::ServiceFi
 data stored in a PostgreSQL connection file. See [Pg::ServiceFile](https://metacpan.org/pod/Pg::ServiceFile) for more
 information.
 
-## METHODS
+# METHODS
 
 [Config::Pg::ServiceFile](https://metacpan.org/pod/Config::Pg::ServiceFile) inherits all methods from [Config::INI::Reader](https://metacpan.org/pod/Config::INI::Reader).
 

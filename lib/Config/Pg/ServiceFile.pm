@@ -6,7 +6,7 @@ use parent 'Config::INI::Reader';
 
 # ABSTRACT: PostgreSQL connection service file parser
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub can_ignore {
   my ($self, $line, $handle) = @_;

@@ -46,7 +46,7 @@ Config::Pg::ServiceFile - PostgreSQL connection service file parser
     #         post     => '5432',
     #         user     => 'foo',
     #         dbname   => 'db_foo',
-    #         password => 'passwird',
+    #         password => 'password',
     #     }
     # }
     my $hash_ref = Config::Pg::ServiceFile->read_file('~/.pg_service.conf');

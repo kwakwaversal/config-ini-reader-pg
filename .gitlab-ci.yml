@@ -1,0 +1,13 @@
+stages:
+    - test
+
+test:
+    image: perl:latest
+    variables:
+        PERL_CPANM_HOME: $CI_PROJECT_DIR/.cpanm
+        PERL5LIB: $CI_PROJECT_DIR/local-lib/lib/perl5
+    script: |
+        cpanm --installdeps -n -l $CI_PROJECT_DIR/local-lib .
+        prove -l
+    tags:
+        - docker
